@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mauri\\.nuget\\packages\\": {}
+    "C:\\Users\\Cedtec\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mauri\\Desktop\\exercicios-AED\\exercicios-AED.csproj",
+      "projectUniqueName": "C:\\Users\\Cedtec\\Desktop\\Mauriani\\AED II\\Lista-AED2\\exercicios-AED.csproj",
       "projectName": "exercicios-AED",
-      "projectPath": "C:\\Users\\mauri\\Desktop\\exercicios-AED\\exercicios-AED.csproj",
-      "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mauri\\Desktop\\exercicios-AED\\obj\\",
+      "projectPath": "C:\\Users\\Cedtec\\Desktop\\Mauriani\\AED II\\Lista-AED2\\exercicios-AED.csproj",
+      "packagesPath": "C:\\Users\\Cedtec\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cedtec\\Desktop\\Mauriani\\AED II\\Lista-AED2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Cedtec\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

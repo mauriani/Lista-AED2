@@ -1,5 +1,5 @@
 ﻿using System;
-using System.IO;
+using System.Collections.Generic;
 
 class Program {
   static void exercicio01(){
@@ -168,33 +168,180 @@ class Program {
       return this.area;
     }
 
+    public override string ToString(){
+
+      return   "\n" + "Dados Retangulo/Quadrado cadastrado" +"\n"+ 
+       "Base: " + this.baseRetangulo + "\n" + 
+       "Altura: " + this.alturaRetangulo + "\n" +
+       "Area: " + this.area + "\n";
+       
+       }
+       
+  }
+
+
+ class Ponto {
+  /* CONSTRUTOR DA CLASSE Ponto */
+    public double pontX;
+    public double pontY;
+
+    /*CONSTRUTOR PADRÃO*/
+    public Ponto(){
+      pontX = 0;
+      pontY = 0;
+    }
+
+    /* CONSTRUTOR COM 2 PARÂMETROS */
+    public Ponto(double X, double Y){
+      this.pontX = X;
+      this.pontY = Y;
+    }
+
+    public double getPontX(){
+      return pontX;
+    }
+
+    public void setPontX(double X){
+      pontX = X;
+    }
+
+    public double getPontY(){
+      return pontY;
+    }
+
+    public void setPontY(double Y){
+      pontY = Y;
+    }
+  }
+
+
+[Serializable]
+class Pessoa {
+  public string? nome;
+  public int idade;
+
+ public Pessoa(){ }
+
+  public Pessoa (string n, int i){
+    this.nome = n;
+    this.idade = i;
+  }
+  public string getNome()
+  {
+    return nome;
+  }
+  public void setNome(string n)
+  {
+    nome=n;
+  }
+
+  public int getIdade(){
+    return idade;
+  }
+
+  public void setIdade(int i) {
+    idade = i;
+  }
+
+  public void exibirDados(List<Pessoa> lista){
+  
+    int maxValue = 0;
+    string nameOld = "";
+
+    for(int i = 0; i < lista.Count; i++){
+
+      if(lista[i].idade > maxValue){
+        maxValue = lista[i].idade;
+        nameOld = lista[i].nome;
+      }
+    }
+
+    Console.WriteLine("A pessoa mais velha é " + nameOld + ", ela(e) tem a idade de " + maxValue + " anos");
+
 
   }
+}
+
+class Animal {
+  public string nome_animal;
+  public int tipo_animal;
+
+  public Animal(){}
+  public Animal(string n, int tipoAnimal){
+    this.nome_animal = n;
+    this.tipo_animal = tipoAnimal;
+  }
+}
   public static void Main (string[] args) {
    
-   /*EXERCÍCIOS NIVEL BÁSICO*/
-    // exercicio01();
-    // exercicio02();
-    // exercicio03();
-    // exercicio04();
+    /*EXERCÍCIOS NIVEL BÁSICO*/
+      // exercicio01();
+      // exercicio02();
+      // exercicio03();
+      // exercicio04();
 
-   /*EXERCÍCIOS NIVEL MÉDIO*/
-    // exercicio05();
-    // exercicio06();
+    /*EXERCÍCIOS NIVEL MÉDIO*/
+      /*EXERCICIO 01*/
+      // exercicio05();
 
-    double baseRetangulo = 0.0f;
-    double alturaRetangulo = 0.0f;
+      /*EXERCICIO 02*/
+      // exercicio06();
 
-    Console.WriteLine("Digite o valor da base: ");
-    baseRetangulo = double.Parse(Console.ReadLine());
+      /*EXERCICIO 03*/
+      /*
+      double baseRetangulo = 0.0f;
+      double alturaRetangulo = 0.0f;
 
-    Console.WriteLine("Digite o valor da altura: ");
-    alturaRetangulo = double.Parse(Console.ReadLine());
+      Console.WriteLine("Digite o valor da base: ");
+      baseRetangulo = double.Parse(Console.ReadLine());
 
-    Retangulo retangulo = new Retangulo(baseRetangulo, alturaRetangulo);
+      Console.WriteLine("Digite o valor da altura: ");
+      alturaRetangulo = double.Parse(Console.ReadLine());
 
-    double areaResultante = retangulo.calcularArea();
+      Retangulo retangulo = new Retangulo(baseRetangulo, alturaRetangulo);
 
-    Console.WriteLine(String.Format("{0:N0}", areaResultante)); 
-  }
+      double areaResultante = retangulo.calcularArea();
+
+      Console.WriteLine(String.Format("O valor da área é : {0:N0}", areaResultante)); 
+
+      // chamando o override
+      Console.WriteLine(retangulo);
+
+      /*EXERCICIO 04*/
+
+      /*construtor padrão*/
+      // Ponto p = new Ponto();
+
+      /*construtor com parametro*/
+      // Ponto p = new Ponto(6.5,8.0);
+
+
+    /*EXERCICIO 05*/
+
+      //Construtor sem parâmetros
+    /* Pessoa p = new Pessoa();
+
+      List<Pessoa> list;
+
+      list = new List<Pessoa>();
+
+
+      for(int i = 0; i < 2; i++){
+        Console.WriteLine("Informe o nome da pessoa: ");
+        string name = Console.ReadLine();
+
+        Console.WriteLine("Informe a idade da pessoa: ");
+        int idade = int.Parse(Console.ReadLine());
+        
+        list.Add(new Pessoa(name,idade));
+
+      }
+
+      // Exibir a maior idade
+      p.exibirDados(list);*/
+
+        Animal a = new Animal();
+
+              
+    }
 }

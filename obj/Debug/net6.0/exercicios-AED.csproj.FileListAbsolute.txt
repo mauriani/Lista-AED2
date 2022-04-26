@@ -13,3 +13,18 @@ C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\refint\exercicios-AED.dll
 C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.pdb
 C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.genruntimeconfig.cache
 C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\ref\exercicios-AED.dll
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\bin\Debug\net6.0\exercicios-AED.exe
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\bin\Debug\net6.0\exercicios-AED.deps.json
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\bin\Debug\net6.0\exercicios-AED.runtimeconfig.json
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\bin\Debug\net6.0\exercicios-AED.dll
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\bin\Debug\net6.0\exercicios-AED.pdb
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\exercicios-AED.csproj.AssemblyReference.cache
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\exercicios-AED.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\exercicios-AED.AssemblyInfoInputs.cache
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\exercicios-AED.AssemblyInfo.cs
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\exercicios-AED.csproj.CoreCompileInputs.cache
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\exercicios-AED.dll
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\refint\exercicios-AED.dll
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\exercicios-AED.pdb
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\exercicios-AED.genruntimeconfig.cache
+C:\Users\Cedtec\Desktop\Mauriani\AED II\Lista-AED2\obj\Debug\net6.0\ref\exercicios-AED.dll
