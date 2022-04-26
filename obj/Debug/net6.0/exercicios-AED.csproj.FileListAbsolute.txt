@@ -1,0 +1,15 @@
+C:\Users\mauri\Desktop\exercicios-AED\bin\Debug\net6.0\exercicios-AED.exe
+C:\Users\mauri\Desktop\exercicios-AED\bin\Debug\net6.0\exercicios-AED.deps.json
+C:\Users\mauri\Desktop\exercicios-AED\bin\Debug\net6.0\exercicios-AED.runtimeconfig.json
+C:\Users\mauri\Desktop\exercicios-AED\bin\Debug\net6.0\exercicios-AED.dll
+C:\Users\mauri\Desktop\exercicios-AED\bin\Debug\net6.0\exercicios-AED.pdb
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.csproj.AssemblyReference.cache
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.AssemblyInfoInputs.cache
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.AssemblyInfo.cs
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.csproj.CoreCompileInputs.cache
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.dll
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\refint\exercicios-AED.dll
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.pdb
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\exercicios-AED.genruntimeconfig.cache
+C:\Users\mauri\Desktop\exercicios-AED\obj\Debug\net6.0\ref\exercicios-AED.dll
